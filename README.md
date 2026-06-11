@@ -1,14 +1,7 @@
-# qbhy/hyperf-auth
+# richard8768/hyperf-auth
 
 hyperf 的 auth 组件，目前支持 jwt、session、sso 驱动。用户可以自行扩展。  
 本组件参考了 laravel 的 auth 组件设计，使用体验大体和 laravel 的 auth 差不多。
-
-[![Latest Stable Version](https://poser.pugx.org/96qbhy/hyperf-auth/v/stable)](https://packagist.org/packages/96qbhy/hyperf-auth)
-[![Total Downloads](https://poser.pugx.org/96qbhy/hyperf-auth/downloads)](https://packagist.org/packages/96qbhy/hyperf-auth)
-[![Latest Unstable Version](https://poser.pugx.org/96qbhy/hyperf-auth/v/unstable)](https://packagist.org/packages/96qbhy/hyperf-auth)
-[![License](https://poser.pugx.org/96qbhy/hyperf-auth/license)](https://packagist.org/packages/96qbhy/hyperf-auth)
-[![Monthly Downloads](https://poser.pugx.org/96qbhy/hyperf-auth/d/monthly)](https://packagist.org/packages/96qbhy/hyperf-auth)
-[![Daily Downloads](https://poser.pugx.org/96qbhy/hyperf-auth/d/daily)](https://packagist.org/packages/96qbhy/hyperf-auth)
 
 ## 支持的验证方式
 
@@ -21,7 +14,7 @@ hyperf 的 auth 组件，目前支持 jwt、session、sso 驱动。用户可以�
 ## 安装 - install
 
 ```bash
-$ composer require 96qbhy/hyperf-auth
+$ composer require richard8768/hyperf-auth
 ```
 
 > hyperf 1.1 请使用 ^v1.0 版本
@@ -44,7 +37,7 @@ return [
 
 发布配置 vendor:publish
 ```bash
-php bin/hyperf.php vendor:publish 96qbhy/hyperf-auth
+php bin/hyperf.php vendor:publish richard8768/hyperf-auth
 ```
 
 生成 `.env` 配置项 
