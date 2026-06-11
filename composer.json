@@ -34,7 +34,7 @@
         "ext-redis": "*"
     },
     "require-dev": {
-        "brainmaestro/composer-git-hooks": "^2.8",
+        "brainmaestro/composer-git-hooks": "^3.0",
         "friendsofphp/php-cs-fixer": "^3.94",
         "hyperf/command": "^3.2",
         "hyperf/config": "^3.2",
@@ -73,12 +73,6 @@
                 "git add .",
                 "composer test"
             ]
-        }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }
